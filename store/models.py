@@ -38,3 +38,4 @@ class Order(models.Model):
     
     place_at = models.DateTimeField(auto_now_add=True)
     payment_status = models.CharField(max_length=1, choices=payment_status_choices, default=payment_status_pending)
+
